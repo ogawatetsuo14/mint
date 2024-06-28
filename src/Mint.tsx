@@ -14,7 +14,7 @@ function Mint({cid,to}:MintProps) {
     //console.log(sender);
     writeContract({ 
       abi,
-      address: '0xcc2B179cA62C6A9aeD3EC776d4d4dd610e00D229', // Amoyコントラクトアドレス
+      address: '0xb66C9FdEf61a24e60B839037Fc786F944618eFAB', // Amoyコントラクトアドレス
       functionName: 'safeMint',
       args: [
         to as Address,

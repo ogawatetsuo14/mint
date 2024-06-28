@@ -57,7 +57,7 @@ function IpfsUpload() {
       inputData = {
         "name": name,
         "description": description,
-        "image": "https://ipfs.io/ipfs/"+resData.IpfsHash,
+        "image": "https://gateway.pinata.cloud/ipfs/"+resData.IpfsHash,
         "attributes": [
             {
                 "value":10
